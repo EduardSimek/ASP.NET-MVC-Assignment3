@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@* @if (Model != null && Model.Count > 0)
+{
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Total Time Worked</th>
+        </tr>
+        @foreach (var employee in Model)
+        {
+            <tr style="@(employee.TotalTimeWorked < 100 ? "background-color:yellow;" : "")">
+                <td>@employee.EmployeeName</td>
+                <td>@employee.TotalTimeWorked</td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p>No data available.</p>
+}
+
+ *@
